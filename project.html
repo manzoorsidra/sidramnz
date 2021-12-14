@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Sidra Manzoor Portfolio</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- This website uses Bootstrap JS and CSS through links to MaxCDN's CDN supported version-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+      <!-- My own CSS stylesheet -->
+      <link rel="stylesheet" href="Assets/styles.css">
+   </head>
+   <body>
+       <!--Placeholder link that the page scrolls up to when "back to top" button is clicked-->
+      <a href="#linktotop" class="toplink">This link brings the viewer back to the top of the page</a>
+      <!--This is the main container for the grid in Bootstrap-->
+      <div class="container-fluid">
+          <!-- Navigation bar -->
+         <div class="d-flex flex-column flex-md-row align-items-center p-3 mb-6 bg-dark">
+            <h5 class="my-0 mr-md-auto font-weight-normal">Sidra M.</h5>
+            <nav class="my-2 my-md-0 mr-md-3">
+               <a class="p-2 top-nav-links" href="index.html">Work</a> 
+               <a class="p-2 top-nav-links" href="about.html">About</a>
+               <a class="p-2" href="https://www.linkedin.com/in/sidramanzoor/" target="_blank"><img src="Assets/Images/linkedin.svg" alt="linkedIn icon" onmouseover='this.src="Assets/Images/linkedinhover.svg"' onmouseout='this.src="Assets/Images/linkedin.svg"'></a>
+               <a class="p-2" href="mailto: smanzoor@andrew.cmu.edu" target="_blank"><img src="Assets/Images/email.svg" alt="email icon" onmouseover='this.src="Assets/Images/emailhover.svg"' onmouseout='this.src="Assets/Images/email.svg"'></a>      
+            </nav>
+         </div>
+         <!-- Overview of Project -->
+         <div class="row d-flex align-items-center mb-7">
+             <!-- Elevator Pitch Summary -->
+            <div class="col-md-8 col-lg-8 col-sm-12 mb-5 pl-0" data-aos="fade-up">
+               <h6 class="coloredSubtext">Immersive AR Experience</h6>
+               <p class="projectTitle orangeColoredTitle">CalmZone</p>
+               <p class="projectDetail">CalmZone is an augmented reality application that simulates a virtual natural space around users that have limited access to real nature. This is an immersive augmented reality experience that helps people relax and meditate in an urban environment.</p>
+            </div>
+            <!-- Timeline, Role and Toolkit -->
+            <div class="col-md-4 col-lg-4 col-sm-12 greyBox p-4">
+               <div class="mb-4">
+                  <h4 class="projectSubtext">Role</h4>
+                  <h5 class="projectSubtextDetails">Individual Project</h5>
+                  <h5 class="projectSubtextDetails">Research & Design</h5>
+               </div>
+               <div class="mb-4">
+                  <h4 class="projectSubtext">Time</h4>
+                  <h5 class="projectSubtextDetails">4 months</h5>
+               </div>
+               <div class="">
+                  <h4 class="projectSubtext">Toolkit</h4>
+                  <h5 class="projectSubtextDetails">Unity 3D</h5>
+                  <h5 class="projectSubtextDetails">XCode</h5>
+                  <h5 class="projectSubtextDetails">AR Foundation</h5>
+               </div>
+            </div>
+         </div>
+         <!-- Project Demo Video -->
+         <div class="row d-flex mb-7 text-center">
+            <div class="embed-responsive embed-responsive-16by9">
+               <iframe width="100%" height="auto" src="https://www.youtube.com/embed/BWb70GgVXHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+         </div>
+         <!-- Background -->
+        <h2 class="projectSectionTitle">Background</h2>  
+        <h4 class="mb-4 col-lg-8 col-md-12 projectBody">With the rapid development of infrastructure in urban communities, natural spaces have become increasingly scarce. According to research, people who live in such urban communities can experience increased stress in their lives due to a lack of exposure to nature. Moreover if these urban residents wish to increase their exposure to nature, they have no choice but to travel long distances away from the city to reach a natural space. CalmZone aims to target this issue of reduced natural spaces in urban communities by providing an accessible way for urban residents to experience nature i.e. in a virtual form.</h4>
+        <img class= "projectFullImg mb-7 col-lg-10 col-md-12 pl-0" src="Assets/Images/background.png" alt="App screen shwoing a virtual bird inside a forest placed in a real room">
+         <!-- Design Question -->
+         <div class="row d-flex mb-7">
+            <h2 class="projectSectionTitle">Design Question</h2>
+            <div class="col-sm-12 col-md-12 col-lg-12 greyBox d-flex justify-content-center align-items-center text-center py-5">
+               <p class="projectDetail">How might we make natural spaces more accessible to urban residents?</p>
+            </div>
+         </div>
+         <!--Solution-->
+         <div class="row d-flex align-items-center mb-7">
+             <div class="pl-0 col-md-8 col-sm-12">
+                <h2 class="projectSectionTitle">Solution</h2>  
+                <h4 class="mb-4 col-lg-8 col-md-12 projectBody">Created as a mobile AR application, CalmZone allows users to create a virtual natural space around themselves directly through their smartphone.</h4>
+                <ul class="pl-4 mb-5">
+                    <li class="mb-3 coloredSubtext">Smartphones are more readily available to users compared to specialized equipment like VR headsets.</li>
+                    <li class="mb-3 coloredSubtext">An AR application prevents cybersickness which can take away from the relaxation experience.</li>
+                    <li class="mb-3 coloredSubtext">AR enables the user to transform their environment instead of completely blocking it out. This allows the user to feel at ease in their real environment instead of entering a new space.</li>
+                </ul>
+             </div>
+             <div class="col-lg-3 col-md-4 col-sm-6 pl-sm-0 pl-md-2">
+                <img class="solutionImg" src="Assets/Images/solution.png" alt="App interface showing a virtual natural space with a red bird and trees">
+             </div>
+        </div> 
+         <!-- Significance -->
+         <div class="row d-flex align-items-center mb-7">
+            <div class="pl-0 col-md-6 col-lg-6 col-sm-8 mb-4 justify-content-center d-flex align-items-center order-2 order-md-1">
+               <img class="about-image" src="Assets/Images/significance.png" alt="A person using the CalmZone app on their phone">
+            </div>
+            <div class="pl-sm-0 pl-md-3 col-md-6 col-lg-6 col-sm-12 order-1 order-md-2" data-aos="fade-up">
+               <h2 class="pl-sm-0 projectSectionTitle">Significance</h2>
+               <h4 class="mb-4 projectBody">Over time as urbanization has rapidly increased, the negative impact on people’s well-being has also risen. Due to this, there is an increasing need for more exposure to nature. People want to experience environments that are becoming scarce. CalmZone aims to be such a way to help individuals cope with these fast changes in their immediate surroundings and experience the nature that rapidly ceases to exist.</h4>
+            </div>
+         </div>
+         <!-- Reach Out Here -->
+         <div class="bottomblurb row d-flex align-items-center text-center justify-content-center greyBox py-3 mb-7">
+            <div class="align-items-center justify-content-center">
+               <h2 class="orangeColoredTitle">Reach Out Here</h2>
+               <div class="d-flex flex-row justify-content-center align-items-center">
+                  <a class="p-2" href="https://www.linkedin.com/in/sidramanzoor/" target="_blank"><img src="Assets/Images/linkedin.svg" alt="linkedIn icon" onmouseover='this.src="Assets/Images/linkedinhover.svg"' onmouseout='this.src="Assets/Images/linkedin.svg"'></a>
+                  <a class="p-2" href="mailto: smanzoor@andrew.cmu.edu" target="_blank"><img src="Assets/Images/email.svg" alt="email icon" onmouseover='this.src="Assets/Images/emailhover.svg"' onmouseout='this.src="Assets/Images/email.svg"'></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Page Footer -->
+      <nav class="container-fluid navbar navbar-dark bg-dark">
+         <div class="footer-copyright text-left py-3">Sidra Manzoor © 2021</div>
+         <div class="my-2 my-md-0 mr-md-3">
+            <a name="linktotop" class="p-2 pl-4 align-items-center back-to-top-link" href="#">
+               <p class="pr-2 back-to-top text-light">Back to Top</p>
+               <img class= "pb-2" src="Assets/Images/arrow.svg" alt="arrow icon">
+            </a>
+         </div>
+      </nav>
+      <!-- Links to jquery and javascript files -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="Assets/script.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+   </body>
+</html>

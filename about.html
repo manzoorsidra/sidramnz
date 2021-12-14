@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Sidra Manzoor Portfolio</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- This website uses Bootstrap JS and CSS through links to MaxCDN's CDN supported version-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+      <!-- My own CSS stylesheet -->
+      <link rel="stylesheet" href="Assets/styles.css">
+   </head>
+   <body>
+       <!--Placeholder link that the page scrolls up to when "back to top" button is clicked-->
+      <a href="#linktotop" class="toplink">This link brings the viewer back to the top of the page</a>
+      <!--This is the main container for the grid in Bootstrap-->
+      <div class="container-fluid">
+          <!-- Navigation bar -->
+         <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-6 bg-dark">
+            <h5 class="my-0 mr-md-auto font-weight-normal">Sidra M.</h5>
+            <nav class="my-2 my-md-0 mr-md-3">
+               <a class="p-2 top-nav-links" href="index.html">Work</a> 
+               <a class="p-2 top-nav-links active" href="about.html"><mark>About</mark></a>
+               <a class="p-2" href="https://www.linkedin.com/in/sidramanzoor/" target="_blank"><img src="Assets/Images/linkedin.svg" alt="linkedIn icon" onmouseover='this.src="Assets/Images/linkedinhover.svg"' onmouseout='this.src="Assets/Images/linkedin.svg"'></a>
+               <a class="p-2" href="mailto: smanzoor@andrew.cmu.edu" target="_blank"><img src="Assets/Images/email.svg" alt="email icon" onmouseover='this.src="Assets/Images/emailhover.svg"' onmouseout='this.src="Assets/Images/email.svg"'></a>
+            </nav>
+         </div>
+         <!-- Main Introduction -->
+         <div class="row d-flex justify-content-center align-items-center mb-7">
+            <div class="col-md-6 col-lg-4 col-sm-8 mb-4 justify-content-center d-flex align-items-center">
+               <img class="about-image" src="Assets/Images/about.png" alt="The owner of the portfolio">
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12" data-aos="fade-up">
+               <h2>A little bit about me...</h2>
+               <p>A UX Designer at heart, I enjoy spending my time learning about design and people. I strive to create solutions that solve real issues through a human-centered approach.</p>
+               <p>In 2019, I recieved my Bachelor’s in Interactive Media and Business from <span class = "boldText">New York University Shanghai</span> where I learned to tell stories through technology and design experiences that produce delight. Currently, i’m pursuing a Master of Human - Computer Interaction from <span class = "boldText">Carnegie Mellon University</span>. </p>
+            </div>
+         </div>
+         <!-- What I've Learned About Design -->
+         <div class="row d-flex align-items-center mb-7 text-center justify-content-center">
+            <div class="col-md-6 col-lg-6 col-sm-12" data-aos="fade-up">
+               <h2 class="coloredTitle">What I've Learned About Design</h2>
+               <p class = "coloredSubtext mb-4">Users are complicated.<br>Take time to understand them.</p>
+               <p class = "coloredSubtext mb-4">There is no “one-size-fits all” principle.<br>Design is very context-dependent.</p>
+               <p class = "coloredSubtext mb-4">It’s okay to not have all the answers.<br>Trust the process and trust your team. </p>
+               <p class = "coloredSubtext mb-4">Mistakes are a part of the process.<br>It’s not about getting it right the first time. </p>
+            </div>
+         </div>
+         <!-- Let's Keep in Touch -->
+         <div class="bottomblurb row d-flex align-items-center text-center justify-content-center greyBox py-3 mb-7">
+            <div class="align-items-center justify-content-center">
+               <h2 class="orangeColoredTitle">Let's Keep in Touch</h2>
+               <div class="d-flex flex-row justify-content-center align-items-center">
+                  <a class="p-2" href="https://www.linkedin.com/in/sidramanzoor/" target="_blank"><img src="Assets/Images/linkedin.svg" alt="linkedIn icon" onmouseover='this.src="Assets/Images/linkedinhover.svg"' onmouseout='this.src="Assets/Images/linkedin.svg"'></a>
+                  <a class="p-2" href="mailto: smanzoor@andrew.cmu.edu" target="_blank"><img src="Assets/Images/email.svg" alt="email icon" onmouseover='this.src="Assets/Images/emailhover.svg"' onmouseout='this.src="Assets/Images/email.svg"'></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Page footer -->
+      <nav class="container-fluid navbar navbar-dark bg-dark">
+         <div class="footer-copyright text-left py-3">Sidra Manzoor © 2021</div>
+         <div class="my-2 my-md-0 mr-md-3">
+            <a name="linktotop" class="p-2 pl-4 align-items-center back-to-top-link" href="#">
+               <p class="pr-2 back-to-top text-light">Back to Top</p>
+               <img class= "pb-2" src="Assets/Images/arrow.svg" alt="arrow icon">
+            </a>
+         </div>
+      </nav>
+      <!-- Links to jquery and javascript files -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="Assets/script.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+   </body>
+</html>

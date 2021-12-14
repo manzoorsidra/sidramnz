@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Sidra Manzoor Portfolio</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- This website uses Bootstrap JS and CSS through links to MaxCDN's CDN supported version-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+      <!-- CDN for animate.css stylesheet -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      <!-- CDN for animate on scroll library -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- My own CSS stylesheet -->
+      <link rel="stylesheet" href="Assets/styles.css">
+   </head>
+   <body>
+    <!--Placeholder link that the page scrolls up to when "back to top" button is clicked-->
+      <a href="#linktotop" class="toplink">This link brings the viewer back to the top of the page</a>
+      <!--This is the main container for the grid in Bootstrap-->
+      <div class="container-fluid">
+          <!-- Navigation bar -->
+         <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-6 bg-dark ">
+            <h5 class="my-0 mr-md-auto font-weight-normal">Sidra M.</h5>
+            <nav class="my-2 my-md-0 mr-md-3">
+               <a class="p-2 top-nav-links active" href="#"><mark>Work</mark></a>
+               <a class="p-2 top-nav-links" href="about.html">About</a> 
+               <a class="p-2" href="https://www.linkedin.com/in/sidramanzoor/" target="_blank"><img src="Assets/Images/linkedin.svg" alt="linkedIn icon" onmouseover='this.src="Assets/Images/linkedinhover.svg"' onmouseout='this.src="Assets/Images/linkedin.svg"'></a>
+               <a class="p-2" href="mailto: smanzoor@andrew.cmu.edu" target="_blank"><img src="Assets/Images/email.svg" alt="email icon" onmouseover='this.src="Assets/Images/emailhover.svg"' onmouseout='this.src="Assets/Images/email.svg"'></a>      
+            </nav>
+         </div>
+         <!-- Hero banner section-->
+         <div class="d-flex justify-content-center text-center">
+            <div class="col-lg-6 col-md-7">
+               <h5 id="hero-subtext">Hey there! My name is</h5>
+               <p id="hero-name" class="mb-2 animate__animated animate__pulse">Sidra Manzoor</p>
+               <h3 id="hero-description">I’m a UX designer who found her passion in life at the intersection of design, people and technology.</h3>
+               <a href="#featuredProjects"><img id="down-arrow"  class="animate__animated animate__fadeInDown animate__infinite infinite animate__slower" src="Assets/Images/downarrow.svg" alt="Down arrow that indicates the user should go down to view more content"></a>
+            </div>
+         </div>
+         <!-- pageholder link that the page scrolls down to when the down arrow is clicked in the hero banner-->
+         <a name="featuredProjects" href="#" class="mb-4 title-links">placeholder text</a>
+         <!-- Featured projects section -->
+         <h1 class="mb-6" data-aos="zoom-in">Featured Projects</h1>
+         <!--Project 1-->
+         <div class="row align-items-center mb-7">
+            <div class="pl-sm-0 col-md-6 mb-sm-5 mb-md-0 imgcontainer">
+               <a href="project.html"><img class="project-thumbnail" src="Assets/Images/project1thumbnail.png" alt="Thumbnail of CalmZone project that shows someone using the AR application on their phone"></a>
+            </div>
+            <div class="pl-sm-0 pr-md-0 pl-md-3 col-md-6 col-lg-5 col-sm-7" data-aos="fade-up">
+               <p class="project-tag mb-1">IMMERSIVE AR</p>
+               <h2 class="mb-md-1">CalmZone</h2>
+               <h4 class="mb-3">Realtime natural space simulation to help urban residents experience nature without leaving the city</h4>
+               <a href="project.html"><button type="button" class="btn btn-secondary">View Project</button></a>
+            </div>
+         </div>
+         <!-- Project 2 -->
+         <div class="row align-items-center mb-7">
+            <div class="pl-sm-0 col-md-6 col-lg-5 col-sm-7 ml-lg-auto order-2 order-md-1" data-aos="fade-up">
+               <p class="project-tag mb-1">MENTAL-WELLBEING</p>
+               <h2 class="mb-md-1">Bubbles</h2>
+               <h4 class="mb-3">A self-help mobile application that helps people process uncomfortable situations and prevents catastrophic thinking</h4>
+               <button type="button" class="btn btn-secondary">View Project</button>
+            </div>
+            <div class="mb-sm-5 mb-md-0 pl-sm-0 pr-md-0 pl-md-3 col-md-6 imgcontainer order-1 order-md-2">
+               <img class="project-thumbnail" src="Assets/Images/bubbles.png" alt="Thumbnail of Bubbles showing screens of the application">
+            </div>
+         </div>
+         <!--Project 3-->
+         <div class="row align-items-center mb-7">
+            <div class="pl-sm-0 col-md-6 mb-sm-5 mb-md-0 imgcontainer">
+               <img class="project-thumbnail" src="Assets/Images/filterfaceoff.png" alt="Thumbnail of filter faceoff showing a deck of cards">
+            </div>
+            <div class="pl-sm-0 pr-md-0 pl-md-3 col-md-6 col-lg-5 col-sm-7" data-aos="fade-up">
+               <p class="project-tag mb-1">PERSUASIVE DESIGN</p>
+               <h2 class="mb-md-1">Filter Faceoff!</h2>
+               <h4 class="mb-3">An Instagram game that pushes the boundaries of the use of filters and challenges how you express yourself to your friends</h4>
+               <button type="button" class="btn btn-secondary">View Project</button>
+            </div>
+         </div>
+      </div>
+      <!-- Page Footer -->
+      <nav class="container-fluid navbar navbar-dark bg-dark">
+         <div class="footer-copyright text-left py-3">Sidra Manzoor © 2021</div>
+         <div class="my-2 my-md-0 mr-md-3">
+            <a name="linktotop" class="p-2 pl-4 align-items-center back-to-top-link" href="#">
+               <p class="pr-2 back-to-top text-light">Back to Top</p>
+               <img class= "pb-2" src="Assets/Images/arrow.svg" alt="arrow icon">
+            </a>
+         </div>
+      </nav>
+      <!-- Links to jquery and javascript files -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="Assets/script.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+   </body>
+</html>
